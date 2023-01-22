@@ -348,7 +348,7 @@ systemctl start badvpn
 install_panel()
 {
 cd /etc/Sslablk
-wget https://github.com/noobconner21/Zip/raw/main/etc.zip
+wget https://github.com/noobconner21/project1/raw/main/etc.zip
 unzip etc
 cd /etc/Sslablk/etc
 mv menu /usr/local/bin
