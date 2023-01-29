@@ -50,6 +50,11 @@ install_dependency()
 	apt install -y unzip cmake build-essential nodejs dropbear git
 }
 
+apt install figlet lolcat -y
+
+#Setup shell banner
+
+ figlet -c "SSLAB-SSH" | lolcat && figlet -f digital -c "MADE WITH LOVE BY PROJECT SSLaB LK " | lolcat
 
 pre_dropbear()
 {
